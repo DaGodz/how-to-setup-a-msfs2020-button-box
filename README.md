@@ -1,4 +1,4 @@
-# how-to-setup-a-msfs2020-button-box
+# How To Setup A MSFS2020 Button Box
 Guide on setting up a button box for Microsoft Flight Simulator. For DaGodz and friends.
 
 # What's a button box?

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs />
+  <inputs>
+    <config guid="5d69ea98-ad02-4661-a9c1-cf18c5adb631">
+      <active>true</active>
+      <description>encoder</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=7.10.0.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Micro/ SN-498-3ae" name="Encoder" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="EventIdInputAction" eventId="65893" param="0" />
+          <onLeftFast />
+          <onRight type="EventIdInputAction" eventId="65892" param="0" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="4c48fe51-995a-4616-83b0-c7f29b3f5827">
+      <active>true</active>
+      <description>button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=7.10.0.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Micro/ SN-498-3ae" name="Button" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="66037" param="100" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
